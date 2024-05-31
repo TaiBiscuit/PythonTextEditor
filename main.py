@@ -16,8 +16,8 @@ def main():
 
     """ BUTTONS """
 
-    save_btn = tk.Button(frame, text="Save", command= lambda: save_file(root, text_edit))
-    open_btn = tk.Button(frame, text="Open", command= lambda: open_file(root, text_edit))
+    save_btn = tk.Button(frame, text="Save File", command= lambda: save_file(root, text_edit))
+    open_btn = tk.Button(frame, text="Open File", command= lambda: open_file(root, text_edit))
 
     save_btn.grid(row=0, column=0, padx=5, pady=5, sticky="ew")
     open_btn.grid(row=1, column=0, padx=5, sticky="ew")
